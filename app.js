@@ -6,6 +6,7 @@ const registerRouter = require('./routers/register.js')
 const loginRouter = require('./routers/login.js')
 
 
+
 app.use(bodyParser.json());
 app.use('/register', registerRouter)
 app.use('/login',loginRouter)

@@ -1,11 +1,9 @@
-const dotenv = require('dotenv')
-dotenv.config()
 
 const dbConfig = {
     host: "localhost",
     database: "chat",
-    user: dotenv.DB_USERNAME,
-    password: dotenv.DB_PASSWORD
+    user: "root",
+    password: "L1230"
 }
 
-module.exports = dbConfig;
+module.exports = dbConfig
